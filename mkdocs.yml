@@ -296,6 +296,7 @@ nav:
        - Attestation:
          - BNB Attestation Service: ./showcase/identity/attestation.md
          - Build your Attestation: ./showcase/identity/attestation-dev.md
+         - ZK-PDF Document Verification: ./showcase/identity/zkpdf-verification.md
      - Telegram Integration:
        - Telegram Mini Game on BNB Chain: ./showcase/telegram/minigame.md
        - Telegram Wallets: ./showcase/telegram/wallets.md
