@@ -183,6 +183,7 @@ nav:
       - Local Node: ./bnb-opbnb/advanced/local-node.md
       - Run with PebbleDB and PBSS: ./bnb-opbnb/advanced/run-with-pebbledb-and-pbss.md
       - Run your own opBNB on BSC: ./bnb-opbnb/advanced/run-your-own-l2-with-opbnb.md
+      - Chain Configuration: ./bnb-opbnb/advanced/Chain-Configuration.md
 
     - FAQs:
       - Protocol FAQs: ./bnb-opbnb/faq/protocol-faqs.md
