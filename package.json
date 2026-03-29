@@ -7,7 +7,7 @@
     "lint": "eslint docs/assets/js/ --ext .js"
   },
   "devDependencies": {
-    "eslint": "^8.57.0"
+    "eslint": "^8.57.1"
   },
   "license": "Apache-2.0"
 }
