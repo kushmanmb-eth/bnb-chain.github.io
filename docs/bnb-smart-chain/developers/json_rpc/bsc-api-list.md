@@ -205,3 +205,23 @@ curl -X POST "http://localhost:8545/" -H "Content-Type: application/json"  --dat
 ```
 curl -X POST "http://localhost:8545/" -H "Content-Type: application/json"  --data '{"jsonrpc":"2.0","method":"eth_getTransactionDataAndReceipt","params":["0x516a2ab1506b020e7f49d0d0ddbc471065624d1a603087262cebf4ca114ff588"],"id":1}'
 ```
+
+### eth_blockNumber
+
+Returns the number of the most recent block.
+
+**Parameters**
+
+None
+
+**JSON-RPC example:**
+
+```
+curl -X POST "http://localhost:8545/" -H "Content-Type: application/json"  --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
+```
+
+**BscScan API v2 example:**
+
+```
+curl "https://api.bscscan.com/v2/api?chainid=56&module=proxy&action=eth_blockNumber&apikey=YourApiKeyToken"
+```
